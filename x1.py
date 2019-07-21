@@ -89,5 +89,3 @@ for actor in root.findall('real_person:actor', ns):
     print (name.text)
     for char in actor.findall('role:character', ns):
         print (' |-->', char.text)
-        
-#
